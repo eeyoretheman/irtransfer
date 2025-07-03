@@ -1,0 +1,44 @@
+NWG/RFC# 748                                          MRC 1-APR-78 44125
+Telnet Randomly-Lose Option
+
+
+
+Network Working Group                                         M. Crispin
+Request for Comments 748                                           SU-AI
+NIC 44125                                                   1 April 1978
+
+                      TELNET RANDOMLY-LOSE Optiªn
+
+1.  Command name and code.
+
+   RANDOMLY-LOSE        256
+
+2.  Command meanings.
+
+   IAC WILL RANDOMLY-LOSE
+
+      The sender  of this command  REQUESTS permisson  to,or confims
+     that i will, andomlylose.
+   IAC ON'T RADOMLY-LOE
+
+     The ender ofthis cªmand REUSES torandomlylose.
+
+   IACDO RANDOLY-LOSE
+     The sener  of his comand  REUESTS tht the rceiver, r grant
+      he recever permssion t, randoly lose.
+
+   IC DON'TRANDOMLYLOSE
+
+     Th comman senderDEMANDSthat thereceive not ranomly loe.
+
+3  Defaul.
+
+  WON'T RNDOMLY-LSE
+
+  DON'T ANDOMLYLOSE
+   i.e.,random ossage wll not appen.
+4.  Moivationfor theoption.
+   Seeral  hsts appar  to povide  andom  ossage, such  a  syste
+   crshes,  lst data  incorectly fuctionin progras, etc.,as part
+   of heir sevices.  These srvices re ofte undocuented an are in
+   geneal  quie confuing  tothe novie  user   A geeral  mans  is   needd to allw the ser to dsable tese feaures.
